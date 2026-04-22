@@ -1,5 +1,3 @@
-# HH.ru-Vacancy-Parser
-
 # HH.ru Vacancy Parser
 
 Парсер вакансий с hh.ru через официальное API.  
@@ -36,4 +34,14 @@
 git clone https://github.com/username/hh-vacancy-parser.git
 cd hh-vacancy-parser
 
-2.
+2.Установить зависимости:
+
+```bash
+pip install -r requirements.txt
+
+3.Если файла requirements.txt нет, установить вручную:
+
+```bash
+pip install requests pandas
+
+
